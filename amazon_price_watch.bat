@@ -1,0 +1,1 @@
+call python.exe main.py --amazon_url {amazon_url} --slack_web_hook {slack_web_hook} --target_price {target_price}
