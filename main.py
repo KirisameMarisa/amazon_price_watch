@@ -26,7 +26,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--amazon_url", default=None)
     parser.add_argument("--slack_web_hook", default=None)
-    parser.add_argument("--target_price", default=None)
+    parser.add_argument("--target_price", default=None, type=int)
     parser.add_argument("--check_time", default=600, type=int)
     args = parser.parse_args()
 
